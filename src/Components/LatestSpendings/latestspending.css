@@ -1,0 +1,19 @@
+.latestspending-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -775px;
+    left: 350px;
+    width:390px;
+}
+
+.latestspending-title{
+    display: flex;
+    width:380px;
+    justify-content: space-between;
+    align-items: center;
+}
+.horizontal-line{
+    width:380px;
+    border:0.1px solid rgb(212, 203, 203);
+}

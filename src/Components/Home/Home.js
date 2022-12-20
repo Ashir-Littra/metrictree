@@ -4,6 +4,7 @@ import TopBanner from '../TopBanner/TopBanner'
 import Balance from "../Balance/Balance"
 import './home.css'
 import Limit from '../Limit/Limit'
+import LatestSpendings from '../LatestSpendings/LatestSpendings'
 const Home = () => {
   return (
     <div className='home-container'>
@@ -12,6 +13,7 @@ const Home = () => {
         <h1 className='home-dashboard-title'>Dashboard</h1>
         <Balance />
         <Limit />
+        <LatestSpendings />
     </div>
   )
 }

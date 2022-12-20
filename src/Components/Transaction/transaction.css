@@ -1,0 +1,5 @@
+.transaction-container{
+    width:380px;
+    height:100px;
+    display: flex;
+}
