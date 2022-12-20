@@ -1,0 +1,26 @@
+.limit-container {
+  position: relative;
+  top: -735px;
+  left: 350px;
+  display: flex;
+  width: 480px;
+  height: 130px;
+}
+
+.limit-top-title {
+  display: flex;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.progress-bar{
+    width:380px;
+    height:8px;
+    border: 0.5px grey solid;
+    border-radius: 10px;
+    display: flex;
+}
+.progress-bar-black{
+    width:50%;
+    background-color: black;
+}
