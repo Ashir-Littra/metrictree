@@ -2,6 +2,12 @@ import React from "react";
 import "./profile.css";
 import logo from "../../assets/logoProfile.png";
 import avatar from "../../assets/avatar.png";
+import OptionButtons from "../OptionButtons/OptionButtons";
+import dashboard from "../../assets/dashboard.svg"
+import invest from "../../assets/invest.svg"
+import trans from "../../assets/trans.svg"
+import wallet from "../../assets/wallet.svg"
+import signout from "../../assets/signout.svg"
 
 const Profile = () => {
   return (
@@ -17,9 +23,18 @@ const Profile = () => {
           <h2>Walter White</h2>
         </div>
         <div className="profile-budget">
-        <h1>$34321</h1>
+        <h1>$34,321</h1>
         <p>Monthly budget</p>
         </div>
+      </div>
+      <div className="profile-buttons">
+<OptionButtons icon={dashboard} title="Dashboard"/>
+<OptionButtons icon={invest} title="Investments"/>
+<OptionButtons icon={trans} title="Transactions"/>
+<OptionButtons icon={wallet} title="Wallet"/>
+      </div>
+      <div className="profile-signout">
+        <OptionButtons icon={signout} title="Sign-Out" />
       </div>
     </div>
   );

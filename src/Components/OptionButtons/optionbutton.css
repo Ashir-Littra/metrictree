@@ -1,0 +1,17 @@
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 25px;
+  padding: 10px;
+  padding-left: 60px;
+}
+.button-title {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  /* font-weight: bold; */
+  font-size: 14px;
+  padding-left: 30px;
+}
+
