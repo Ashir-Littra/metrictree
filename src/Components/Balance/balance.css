@@ -1,0 +1,11 @@
+.balance-container{
+    width: 380px;
+    height: 230px;
+    background-color: whitesmoke;
+    border: solid 0.5px rgb(201, 200, 200);
+    border-radius: 10px;
+    position: relative;
+    top:-670px;
+    left: 350px;
+
+}
