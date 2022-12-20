@@ -1,8 +1,9 @@
 .limit-container {
   position: relative;
-  top: -735px;
+  top: -790px;
   left: 350px;
   display: flex;
+  flex-direction: column;
   width: 480px;
   height: 130px;
 }
@@ -23,4 +24,9 @@
 .progress-bar-black{
     width:50%;
     background-color: black;
+}
+.limit-bottom{
+  display: flex;
+  width: 380px;
+  justify-content: space-between;
 }

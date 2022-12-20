@@ -1,5 +1,8 @@
 import React from 'react'
+import TransactionBox from '../TransactionBox/TransactionBox'
 import './limit.css'
+import income from '../../assets/income.svg'
+import expense from '../../assets/expense.svg'
 
 const Limit = () => {
   return (
@@ -17,7 +20,8 @@ const Limit = () => {
       </div>
         </div>
         <div className='limit-bottom'>
-    
+    <TransactionBox image={income} title='income' amount='$5,700' />
+    <TransactionBox image={expense} title='spendings' amount='$2,254' bcolor='white' />
         </div>
     </div>
   )
