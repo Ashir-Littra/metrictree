@@ -8,6 +8,7 @@ const Home = () => {
     <div className='home-container'>
         <TopBanner />
         <Profile />
+        <h1 className='home-dashboard-title'>Dashboard</h1>
         <Balance />
     </div>
   )

@@ -5,3 +5,9 @@
     border-radius: 30px;
     background-color: rgba(236, 232, 232, 0.925);
 }
+.home-dashboard-title{
+    position: relative;
+    top:-740px;
+    left: 350px;
+    font-weight: normal;
+}
