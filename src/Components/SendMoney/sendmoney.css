@@ -1,0 +1,17 @@
+.sendmoney-container{
+    position: relative;
+    top: -1350px;
+    left: 960px;
+    height: 200px;
+    width:360px;
+}
+.sendmoney-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sendmoney-users{
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+}
