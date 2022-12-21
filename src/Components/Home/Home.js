@@ -5,6 +5,7 @@ import Balance from "../Balance/Balance"
 import './home.css'
 import Limit from '../Limit/Limit'
 import LatestSpendings from '../LatestSpendings/LatestSpendings'
+import Graph from '../Graph/Graph'
 const Home = () => {
   return (
     <div className='home-container'>
@@ -14,6 +15,8 @@ const Home = () => {
         <Balance />
         <Limit />
         <LatestSpendings />
+        <p className='home-graph-title'>Expenses statitics</p>
+        <Graph />
     </div>
   )
 }

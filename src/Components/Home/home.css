@@ -11,3 +11,10 @@
     left: 350px;
     font-weight: normal;
 }
+.home-graph-title{
+    position: relative;
+    top: -1394px;
+    left: 961px;
+    font-weight: bold;
+    font-size: 18px;
+}
