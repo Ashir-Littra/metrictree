@@ -1,5 +1,53 @@
 .transaction-container{
     width:380px;
-    height:100px;
+    height:50px;
     display: flex;
+    justify-content: flex-start;
+    padding-top: 5px;
+    
+
+}
+.transaction-icon-container{
+    width:40px;
+    height:40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.transaction-icon{
+    width: 27px;
+    height: 27px;
+}
+.transaction-left{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.transaction-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transaction-right p{
+    /* position: relative;
+    left: 20px; */
+  padding-left: 10px;
+}
+.transaction-details{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50px; */
+    line-height: 3px;
+
+}
+.transaction-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -9,15 +9,15 @@ const Transaction = ({title,icon,amount,date,time}) => {
       <img className='transaction-icon' src={icon} alt='' />
       </div>
         <div className='transaction-details'>
-            <p>{title}</p>
-            <p>{date} at {time}</p>
+            <p style={{fontSize:'18px'}}>{title}</p>
+            <p style={{fontSize:'15px',fontWeight:200}}>{date} at {time}</p>
         </div>
        </div>
         <div className='transaction-right'>
-        <div className='transaction-amount'>
+        <div className='transaction-amount' style={{fontSize:'23px'}}>
             {amount}
         </div>
-        <p> &lt; </p>
+        <p style={{fontSize:'22px',fontWeight:100}}> &gt; </p>
         </div>
     </div>
   )
