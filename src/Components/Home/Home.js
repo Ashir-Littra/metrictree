@@ -7,6 +7,7 @@ import Limit from '../Limit/Limit'
 import LatestSpendings from '../LatestSpendings/LatestSpendings'
 import Graph from '../Graph/Graph'
 import SendMoney from '../SendMoney/SendMoney'
+import ScheduledPayments from '../ScheduledPayments/ScheduledPayments'
 const Home = () => {
   return (
     <div className='home-container'>
@@ -19,6 +20,7 @@ const Home = () => {
         <p className='home-graph-title'>Expenses statitics</p>
         <Graph />
         <SendMoney />
+        <ScheduledPayments />
     </div>
   )
 }

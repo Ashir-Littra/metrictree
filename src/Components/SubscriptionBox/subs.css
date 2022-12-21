@@ -1,0 +1,24 @@
+.subs-container{
+    height: 140px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-left: 10px;
+
+}
+.subs-bottom-icon{
+    height: 35px;
+    width: 35px;
+}
+.subs-amount{
+    font-weight: bold;
+    margin-right: 20px
+    
+}
+.subs-bottom{
+    margin-right: 20px
+}

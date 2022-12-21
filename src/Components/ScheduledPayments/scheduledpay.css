@@ -1,0 +1,16 @@
+.scheduled-container{
+    position: relative;
+    top: -1400px;
+    left: 960px;
+    height: 200px;
+    width:360px;
+    display: flex;
+    flex-direction: column;
+}
+.scheduled-title{
+    font-weight: bold;
+}
+.scheduled-subs{
+    display: flex;
+    
+}
